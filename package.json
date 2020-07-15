@@ -1,0 +1,25 @@
+{
+  "name": "mini-tb-pc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax构建淘宝PC小程序Demo",
+  "main": "index.js",
+  "keywords": [],
+  "author": "mubai <mubai@vervn.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t ali -w",
+    "build": "cross-env NODE_ENV=production remax build -t ali"
+  },
+  "dependencies": {
+    "@antv/f2": "^3.7.0",
+    "@antv/f2-context": "^0.0.1",
+    "@antv/my-f2": "^2.1.1",
+    "miniapp-router": "^0.1.8",
+    "react": "^16.12.0",
+    "remax": "^2.6.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
